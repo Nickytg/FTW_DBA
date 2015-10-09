@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DoBizApp</string>
+    <string name="title_activity_first_screen">FirstScreen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_screen">AboutScreen</string>
+    <string name="title_activity_access_denied">AccessDenied</string>
+    <string name="title_activity_business_screen">BusinessScreen</string>
+    <string name="title_activity_business_card">BusinessCard</string>
+    <string name="title_activity_register_screen">RegisterScreen</string>
+    <string name="title_activity_register_confirmation">RegisterConfirmation</string>
+    <string name="title_activity_business_search">BusinessSearch</string>
+    <string-array name="show_business">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string-array name="country_business">
+        <item>South Africa</item>
+        <item>Germany</item>
+    </string-array>
+    <string-array name="city_business">
+        <item>Cape Town</item>
+        <item>Pretoria</item>
+    </string-array>
+    <string-array name="industry_business">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="services_business">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="title_activity_current_specials">CurrentSpecials</string>
+    <string-array name="connection_current">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string name="title_activity_for_sale">ForSale</string>
+    <string name="title_activity_business_profile">BusinessProfile</string>
+</resources>

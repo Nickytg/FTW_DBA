@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tb.dobizapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirstScreen"
+            android:label="@string/title_activity_first_screen" >
+            <intent-filter>
+                <action android:name="com.example.tb.dobizapp.FirstScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutScreen"
+            android:label="@string/title_activity_about_screen" >
+            <intent-filter>
+                <action android:name="com.example.tb.dobizapp.AboutScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AccessDenied"
+            android:label="@string/title_activity_access_denied" >
+        </activity>
+        <activity
+            android:name=".BusinessScreen"
+            android:label="@string/title_activity_business_screen" >
+        </activity>
+        <activity
+            android:name=".BusinessCard"
+            android:label="@string/title_activity_business_card" >
+        </activity>
+        <activity
+            android:name=".RegisterScreen"
+            android:label="@string/title_activity_register_screen" >
+            <intent-filter>
+                <action android:name="com.example.tb.dobizapp.RegisterScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterConfirmation"
+            android:label="@string/title_activity_register_confirmation" >
+        </activity>
+        <activity
+            android:name=".BusinessSearch"
+            android:label="@string/title_activity_business_search" >
+            <intent-filter>
+                <action android:name="com.example.tb.dobizapp.BusinessSearch" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CurrentSpecials"
+            android:label="@string/title_activity_current_specials" >
+            <intent-filter>
+                <action android:name="com.example.tb.dobizapp.CurrentSpecials" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForSale"
+            android:label="@string/title_activity_for_sale" >
+            <intent-filter>
+                <action android:name="com.example.tb.dobizapp.ForSale" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BusinessProfile"
+            android:label="@string/title_activity_business_profile" >
+        </activity>
+    </application>
+
+</manifest>

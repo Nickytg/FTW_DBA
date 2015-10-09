@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custome tab 5"
+            android:id="@+id/textView"
+            android:layout_below="@+id/imageView22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="57dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Friend requests received"
+            android:id="@+id/textView31"
+            android:textColor="#ff0a18"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:textSize="27dp" />
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView22"
+            android:src="@drawable/line1"
+            android:layout_below="@+id/textView31"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Friend requests sent"
+            android:id="@+id/textView32"
+            android:textColor="#ff0a18"
+            android:textStyle="bold"
+            android:layout_below="@+id/imgView"
+            android:layout_centerHorizontal="true"
+            android:textSize="27dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView23"
+            android:src="@drawable/line1"
+            android:layout_below="@+id/textView32"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.tb.dobizapp.BusinessSearch"
+    android:id="@+id/business_search">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Business Search"
+        android:id="@+id/textView14"
+        android:textColor="#ff0a18"
+        android:textSize="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Show"
+        android:id="@+id/textView15"
+        android:layout_alignBottom="@+id/spishow"
+        android:layout_toLeftOf="@+id/btnSearch"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_toEndOf="@+id/textView14" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spishow"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15"
+        android:spinnerMode="dropdown" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/line1"
+        android:layout_below="@+id/textView14"
+        android:layout_alignRight="@+id/textView14"
+        android:layout_alignEnd="@+id/textView14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Country"
+        android:id="@+id/textView16"
+        android:layout_alignTop="@+id/spicountry"
+        android:layout_alignRight="@+id/imageView6"
+        android:layout_alignEnd="@+id/imageView6"
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spicountry"
+        android:layout_alignRight="@+id/spishow"
+        android:layout_alignEnd="@+id/spishow"
+        android:layout_toEndOf="@+id/textView19"
+        android:layout_below="@+id/imageView6"
+        android:spinnerMode="dropdown"
+        android:layout_toRightOf="@+id/textView19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="City"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/spicountry"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spicity"
+        android:layout_below="@+id/spicountry"
+        android:layout_alignRight="@+id/spicountry"
+        android:layout_alignEnd="@+id/spicountry"
+        android:layout_alignLeft="@+id/spicountry"
+        android:layout_alignStart="@+id/spicountry"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Industry"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/spicity"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spiindustry"
+        android:layout_below="@+id/spicity"
+        android:spinnerMode="dropdown"
+        android:layout_alignLeft="@+id/spicity"
+        android:layout_alignStart="@+id/spicity"
+        android:layout_alignRight="@+id/spicity"
+        android:layout_alignEnd="@+id/spicity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Services"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/spiindustry"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spiservices"
+        android:layout_below="@+id/spiindustry"
+        android:layout_alignLeft="@+id/spiindustry"
+        android:layout_alignStart="@+id/spiindustry"
+        android:spinnerMode="dropdown"
+        android:layout_alignRight="@+id/spiindustry"
+        android:layout_alignEnd="@+id/spiindustry" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Search"
+        android:id="@+id/btnSearch"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:background="#ff0a18"
+        android:textColor="#fcf9f3"
+        android:layout_below="@+id/spiservices"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Company Name"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/spiservices"
+        android:layout_toLeftOf="@+id/spishow"
+        android:layout_toStartOf="@+id/spishow" />
+</RelativeLayout>
