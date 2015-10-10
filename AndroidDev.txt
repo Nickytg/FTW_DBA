@@ -1,0 +1,10 @@
+Create layout with tabs: https://guides.codepath.com/android/Google-Play-Style-Tabs-using-TabLayout
+Re-using layout: http://developer.android.com/training/improving-layouts/reusing-layouts.html
+ListView: http://stackoverflow.com/questions/6510550/android-listview-in-fragment + ListView mListView = (ListView) findViewById(android.R.id.list);
+Android ListView with multiple layout: http://www.survivingwithandroid.com/2014/08/android-listview-with-multiple-row.html
+Font: 
+android:fontFamily="sans-serif"           // roboto regular
+android:fontFamily="sans-serif-light"     // roboto light
+android:fontFamily="sans-serif-condensed" // roboto condensed
+android:fontFamily="sans-serif-thin"      // roboto thin (android 4.2)
+android:fontFamily="sans-serif-medium"    // roboto medium (android 5.0)
